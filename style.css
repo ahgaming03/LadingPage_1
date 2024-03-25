@@ -239,6 +239,7 @@ section {
 .idea .category {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -390,9 +391,15 @@ section {
     color: #F79489;
 }
 
+.room .content>.email>input {
+    background: none;
+}
+
 .room .content>.email>input::placeholder {
     color: #F79489;
 }
+
+
 
 .room .content>.email>input:focus {
     outline: none;
@@ -537,6 +544,12 @@ footer>:last-child {
     .reason-title {
         display: block;
         margin-bottom: 10px;
+    }
+
+    .reason .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     /* product */
